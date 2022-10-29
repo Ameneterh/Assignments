@@ -1,0 +1,172 @@
+*, *:before, *:after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+body {
+  background-image: url(images/background.jpg);
+  background-size: cover;
+}
+
+main {
+  width: 400px;
+  height: 80%;
+  margin: auto;
+  padding: 20px 35px;
+  border-radius: 10px;
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  background-color: rgba(255, 255, 255, 0.13);
+  box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
+}
+
+form {
+  width: 100%;
+}
+
+form * {
+  font-family: "Poppins", sans-serif;
+  color: #ffffff;
+  letter-spacing: 0.5px;
+  outline: none;
+  border: none;
+}
+
+.log-success * {
+  font-family: "Poppins", sans-serif;
+  color: #ffffff;
+  letter-spacing: 0.5px;
+  outline: none;
+  border: none;
+}
+
+#logout {
+  color: red;
+}
+
+.login-head {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: center;
+}
+
+#login-head {
+  font-size: 26px;
+  font-weight: bold;
+}
+
+label {
+  display: block;
+  margin-top: 30px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+input {
+  display: block;
+  border: 1px solid rgba(12, 12, 12, 0.5);
+  height: 40px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.07);
+  border-radius: 3px;
+  padding: 0 10px;
+  margin-top: 8px;
+  font-size: 14px;
+}
+
+input:focus {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid red;
+}
+
+::placeholder {
+  font-size: 12px;
+  color: #e5e5e5;
+}
+
+.button {
+  margin-top: 30px;
+  width: 100%;
+  background-color: #ffffff;
+  text-align: center;
+  color: #080710;
+  padding: 15px 0;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.register {
+  width: 100%;
+  margin-top: 30px;
+  align-content: center;
+  justify-content: center;
+}
+
+.date-color {
+  display: flex;
+  justify-content: space-between;
+}
+
+.div-1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.div-1 input {
+  display: block;
+  height: 40px;
+  width: 48%;
+  background-color: rgba(255, 255, 255, 0.07);
+  border-radius: 3px;
+  padding: 0 10px;
+  margin-top: 8px;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.date-color label {
+  display: block;
+  margin-top: 5px;
+  font-size: 12px;
+}
+
+select {
+  display: block;
+  height: 40px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.07);
+  border-radius: 3px;
+  padding: 0 10px;
+  margin-top: 8px;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.date-color input {
+  display: block;
+  height: 40px;
+  width: 48%;
+  background-color: rgba(255, 255, 255, 0.07);
+  border-radius: 3px;
+  padding: 0 10px;
+  margin-top: 8px;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+option {
+  color: black;
+}
